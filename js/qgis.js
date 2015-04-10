@@ -1690,6 +1690,7 @@ function shortestRoute(osmId){
 	prevSupermkt = false;
 	prevTertEdu = false;
 	
+	document.getElementById("short").innerHTML = "";
 	document.getElementById("short").innerHTML += "<b>Distance from nearest amenties: </b>"+"<br>";
 	
 	if (bank.checked == 1){
